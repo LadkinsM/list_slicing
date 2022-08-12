@@ -186,6 +186,9 @@ def delete_third_and_seventh(input_list):
     ['Do', 'Re', 'Fa', 'So', 'La', 'Do']
 
     """
+    input_list.pop(2)
+    input_list.pop(7)
+    # input_list[2], input_list[6] = []
 
     pass
 
