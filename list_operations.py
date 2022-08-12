@@ -168,6 +168,7 @@ def replace_middle(input_list):
     [0, 3, 42, 37, 24, 27]
 
     """
+    input_list[3:-2] = [42, 37]
 
     pass
 
